@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Attaching Event Listeners
-    taskInput.addEventListener('click', addTask);
+    addButton.addEventListener('click', addTask);
 
     // Allow pressing the "Enter" to add tasks
     taskInput.addEventListener('keypress', function (event) {
